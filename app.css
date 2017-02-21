@@ -1,0 +1,75 @@
+body{
+    font-family: 'Lato', 'appleLogo', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #2C2D30;
+    font-size: 16.2px;
+    line-height: 1.5rem;
+}
+
+#header{
+    background: linear-gradient(to right,#01AAFB 42%,#0974E6 58%);
+    height: 40px;
+    pointer-events: none;
+    width: 100%;
+}
+
+#content{
+    margin-top: 40px;
+}
+
+#details{
+    border: 1px solid #e6e6e6;
+    border-radius: 1px;
+    padding:40px;
+}
+
+h2{
+    border-bottom: 1px solid #e6e6e6;
+}
+
+ol {
+    display: block;
+    list-style-type: decimal;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+    list-style-type: none;
+}
+
+ol li{
+    margin-bottom: 10px;
+    line-height: 24px;
+    display: list-item;
+    text-align: -webkit-match-parent;
+    text-indent: -40px;
+    margin-left: 40px;
+    counter-increment: list;
+}
+
+ol li:before {
+    background-color: #01AAFB;
+    width: 24px;
+    text-indent: 8px;
+    padding-left: 0px;
+    height: 24px;
+    line-height: 23px;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    border-radius: 13px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    color: #FFFFFF;
+    display: inline-block;
+    font-weight: 700;
+    content: counter(list);
+    margin-right: 15px;
+    font-size: 14px;
+}
+
+.row{
+    margin: 0;
+}

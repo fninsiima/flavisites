@@ -1,24 +1,68 @@
-<html><head><title>Help</title></head>
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Help</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="app.css"/>
+</head>
 <body>
-<p>The <b>WHITEFLY Counter</b> program detects and counts whiteflies on infested leaves.</p>
-<p>The <a href="filemenu.html">File</a> menu can be used to load existing images, and to exit the application.</p>
-<p>All the most commonly used menu options are also available on the
-toolbar. The toolbar also provides an easy way of opening the image.</p>
-<p><u>To use the drag and drop feature</u>
-<br>Simply drag and drop the image into the application.
-<br>Image files are automatically saved with "_detected" added to the filename in a folder called results that is created when the application is run. For example: 
-<br><i>imagename_detected.jpg</i></p>
 
-<p><u>To use the application</u>
-<br>Click Browse to select the folder with the images
-<br>To score the images automatically, click the Score automatically button
-<br>A progress bar with notify you of completion and you will be able to download a CSV file or go to the folder
-<br>To score the images semi-automatically, browse to the selected folder and click the semi-automatic button
-<br>Use the Previous or Next buttons to navigate between images
+    <div class="row" id="header">
 
-<!-- <br>A dialog pops up. Choose the pixel size(a multiple of 2). Default size is 6 pixels. Maximum size is 100 pixels. -->
-<br>Image files are automatically saved with "_detected" added to the filename in a folder called data that is created when the application is run. 
+    </div>
+    <div class="row" id="content">
+        <div class="col-md-3"></div>
+        <div class="col-md-6" id="details">
+            <p>The <b>WHITEFLY Counter</b> program detects and counts whiteflies on infested leaves.</p>
+            <p>The <a href="filemenu.html">File</a> menu can be used to load existing images, and to exit the application.</p>
+            <p>All the most commonly used menu options are also available on the
+                toolbar. The toolbar also provides an easy way of opening the image.</p>
 
-<!-- <br><i>imagename_detected_annotated.jpg</i></p> -->
+            <h2>
+                To use the drag and drop feature
+            </h2>
 
-</body></html>
+            <ol>
+                <li>
+                    Simply drag and drop the image into the application.
+                </li>
+                <li>
+                    Image files are automatically saved with "_detected" added to the filename in a folder called results that is created when the application is run. For example:<i>imagename_detected.jpg</i>
+                </li>
+            </ol>
+
+
+            <h2>
+                To use the application
+            </h2>
+            <ol>
+                <li>
+                    Click Browse to select the folder with the images
+                </li>
+                <li>
+                    To score the images automatically, click the Score automatically button
+                </li>
+                <li>
+                    A progress bar with notify you of completion and you will be able to download a CSV file or go to the folder
+                </li>
+                <li>
+                    To score the images semi-automatically, browse to the selected folder and click the semi-automatic button
+                </li>
+                <li>
+                    Use the Previous or Next buttons to navigate between images
+                </li>
+                <li>
+                    Image files are automatically saved with "_detected" added to the filename in a folder called data that is created when the application is run.
+                </li>
+            </ol>
+        </div>
+        <div class="col-md-3"></div>
+    </div>
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
